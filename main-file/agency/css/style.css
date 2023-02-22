@@ -2129,8 +2129,8 @@ audio, video, canvas {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 50%;
-    float: left;
-    overflow: hidden; }
+    overflow: hidden; 
+}
 
 .author-content {
     padding-left: 1.9rem;
@@ -2392,8 +2392,8 @@ input.inputerror, textarea.inputerror, select.inputerror {
     margin-right: 15px;
     border-radius: 50px;
     display: inline-block;
-    float: left;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+ }
 
 .agency-widget > .widget ol, .agency-widget > .widget ul {
     margin: 0;
