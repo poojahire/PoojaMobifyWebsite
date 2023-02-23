@@ -791,6 +791,10 @@ header .nav-holder.active .shape-right {
     margin-left: -15px;
   }
 
+  .subtitle{
+    font-size: 30px;
+  }
+
   .row > [class*=col] {
     padding-left: 15px;
     padding-right: 15px;
