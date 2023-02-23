@@ -520,10 +520,6 @@ header a.logo img {max-width: 150px;}
     transition: none;
 }
 
-li{
-    color: var(--color-gray);
-}
-
 .header-appear .fullnav-toggler{
     top: 15px;
 }
@@ -1270,6 +1266,19 @@ span.anchor-circle{
     -webkit-box-shadow:0 0 0 0 rgb(240, 33, 182);
     box-shadow:0 0 0 0 rgb(240, 33, 182);
 }
+.about-inner .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: var(--color-primary);
+    border-radius: 100%;
+    text-align: center;
+    color:red;
+    line-height: 58px;
+    font-size: 27px;
+    margin-bottom: 17px;
+    padding-right: 3px;
+}
 
 /* ===================================
    Counters
@@ -1786,7 +1795,7 @@ audio, video, canvas {
 }
 
 .footer-social{
-    text-align: left;
+    text-align: right;
 }
 
 .footer-social ul{
@@ -1795,7 +1804,7 @@ audio, video, canvas {
 }
 
 .footer-social li{
-    display: inline-block;
+    display: flex;
 }
 
 .footer-social a {
