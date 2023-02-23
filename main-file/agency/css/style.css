@@ -782,6 +782,24 @@ header .nav-holder.active .shape-right {
     background: transparent;
     outline: none!important;
 }
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .row > [class*=col] {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .row--0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .row--0 > [class*=col] {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
 .nav-holder > .container{
     height: 100%;
@@ -790,6 +808,11 @@ header .nav-holder.active .shape-right {
     float: right;
 }
 
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1260px;
+    }
+  }
 .nav-holder .full-menu-detail .title{
     font-size: 20px;
     font-weight: 400;
