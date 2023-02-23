@@ -523,33 +523,11 @@ header a.logo img {max-width: 150px;}
 .header-appear .fullnav-toggler{
     top: 15px;
 }
-.row{
-    justify-content: center;
-}
+
 .fullnav-toggler.active{
     opacity: 0;
 }
-.ul.brand-style-2 img {
-    opacity: 0.8;
-    transition: 0.3s;
-    max-height: 110px;
-    max-width: 150px;
-    filter: grayscale(1);
-    cursor: pointer;
-}
-.about-inner .icon {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    background: var(--color-primary);
-    border-radius: 100%;
-    text-align: center;
-    color: rgb(228, 7, 7);
-    line-height: 58px;
-    font-size: 27px;
-    margin-bottom: 17px;
-    padding-right: 3px;
-}
+
 .fullnav-toggler .line{
     background: #FFFFFF;
     position: relative;
@@ -814,14 +792,6 @@ header .nav-holder.active .shape-right {
     padding-right: 15px;
   }
 
-  .row--0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .row--0 > [class*=col] {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
 
 .nav-holder > .container{
     height: 100%;
