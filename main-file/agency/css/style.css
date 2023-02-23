@@ -520,6 +520,10 @@ header a.logo img {max-width: 150px;}
     transition: none;
 }
 
+li{
+    color: var(--color-gray);
+}
+
 .header-appear .fullnav-toggler{
     top: 15px;
 }
