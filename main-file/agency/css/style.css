@@ -3413,3 +3413,20 @@ input.inputerror, textarea.inputerror, select.inputerror {
         left: 43%;
     }
 }
+
+.news-img{
+    height: 250px;
+}
+
+ .col-lg-4{
+    margin-bottom: 30px;
+ }
+
+ .news_items{
+
+max-height: 600px;
+}
+
+.news-text-box{
+    height: 300px
+}
