@@ -647,21 +647,7 @@ header a.logo img {max-width: 150px;}
     width: 50%;
 }
 
-/* h1 */
-.section-title1{
-font-size: 40px;
-font-weight: 500;
-text-align: center;
-}
-/* h1 */
 
-/* h2 */
-.section-sub-title{
-    font-size: 25px;
-    font-weight: 400;
-    text-align: center;
-    }
-    /* h2 */
 
 .nav-holder{
     position: fixed;
@@ -1189,8 +1175,24 @@ span.anchor-circle{
    About Section
 ====================================== */
 
+/* h1 */
+
+    /* h1 */
+    
+    /* h2 */
+ .heading-area .section-sub-title{
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        }
+        /* h2 */
 .heading-area {
     margin-top:50px;
+}
+
+.heading-area .section-title1{
+    font-weight: 600px;
+    text-align: center;
 }
 
 .heading-area .sub-title{
@@ -3457,6 +3459,11 @@ input.inputerror, textarea.inputerror, select.inputerror {
 
  .col-lg-4{
     margin-bottom: 30px;
+ }
+
+ .col-lg-3{
+    margin-bottom: 30px;
+    margin-top: 10px;
  }
 
  .news_items{
