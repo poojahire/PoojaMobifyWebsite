@@ -329,7 +329,19 @@ header a.logo img {max-width: 150px;}
 .header-appear .navbar-top-default.navbar-gradient .navbar-nav .menu-line{
     color: #FFFFFF;
 }
-
+.overlay-hover {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #03a9f5a1;
+    transition: .5s ease;
+    opacity: 0;
+    z-index: 111;
+}
 
 .header-appear .navbar-top-default {
     height: 80px;
@@ -908,7 +920,13 @@ header .nav-holder.active .shape-right {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
-
+.icon img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    filter: Blue(0);
+    background-color:#1ab7ea;
+  }
+  
 .nav-holder.style-2 .full-menu-detail i{
     float: right;
     margin-left: 10px;
