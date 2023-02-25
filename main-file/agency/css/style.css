@@ -928,6 +928,16 @@ header .nav-holder.active .shape-right {
     filter: Blue(0);
     background-color:#1ab7ea;
   }
+.banner-imageoverlay {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+}
   
 .nav-holder.style-2 .full-menu-detail i{
     float: right;
