@@ -11,9 +11,9 @@
     <!-- keywords -->
     <meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, faq">
     <!-- Page Title -->
-    <title>Mobify | Web & App Development Studio</title>
+    <title>Mobify | Web & App Development </title>
     <!-- Favicon -->
-    <link href="agency/img/favicon.ico" rel="icon">
+    <!-- <link href="agency/img/favicon.ico" rel="icon"> -->
     <!-- Bundle -->
     <link href="vendor/css/bundle.min.css" rel="stylesheet">
     <link href="vendor/css/revolution-settings.min.css" rel="stylesheet">
@@ -24,8 +24,17 @@
     <link href="vendor/css/cubeportfolio.min.css" rel="stylesheet">
     <!-- Style Sheet -->
     <link href="agency/css/style.css" rel="stylesheet">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script type="text/javascript"
+     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 
+</script>
+<!-- <script src="index.js"></script> -->
+<script type="text/javascript">
+(function(){
+   emailjs.init("h1IKFkQzWTpnf7L9N");
+})();
+</script>
 <style>
 
   
@@ -150,7 +159,7 @@
             <div class="shape-right">
                 <div class="full-menu-detail hide-cursor">
                     <h6 class="title">Contact Mobify</h6>
-                    <p><i class="fas fa-mobile-alt"></i>+91 8888850932</p>
+                    <p><i class="fas fa-mobile-alt"></i>+91 7972466258</p>
                     <p><i class="fas fa-envelope"></i>sales@mobify.bz</p>
                 </div>
                 <img alt="shape" src="agency/img/shape-7.png">
@@ -523,7 +532,7 @@ Development of Your
        <div class="row" style="display: flex;">
 <div class="col-lg-6 wow fadeInLeft" >
         <h1 class="section-title1" style="text-align: left;"><span><b>About Mobify</b></span></h1>
-        <h2 class="section-sub-title" style="text-align: left;"><span class="alt-color js-rotating"> Mobify Technology Solutions Pvt. Ltd.</span> is a global e-commerce solutions provider, based in India. </span></h2><br>
+        <h2 class="section-sub-title" style="text-align: left;"><span class="alt-color js-rotating"> Mobify Technology Solutions Pvt. Ltd.</span> is a Building Customized Software Solutions to Fit Your Unique Needs, based in India. </span></h2><br>
 
     <ul style="text-align: left;">
         <li>We develop mobile and web solutions for companies of all sizes and provide &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;insights into your business by connecting you to the right mobile and web &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;solutions, at the right time.</li>
@@ -532,7 +541,7 @@ Development of Your
     </ul> 
 </div>     <br>
     <div class="col-lg-6 wow fadeInRight"> 
-        <img alt="vector" src="agency/img/aboutimage.jpg">       
+        <img alt="vector" src="agency/img/aboutimage.jpg" class="vector">       
     </div>
         </div>
         </div>
@@ -856,7 +865,7 @@ Development of Your
                         <li>
                             <span class="address-icon gradient-text2"><i aria-hidden="true"
                                                                          class="fas fa-phone-volume"></i></span>
-                            <span class="address-text"><a class="mr-3" href="javascript:void(0)">+91 8888850932</a>
+                            <span class="address-text"><a class="mr-3" href="javascript:void(0)">+91 7972466258</a>
                                   </span>
                         </li>
                         <li>
@@ -896,7 +905,6 @@ Development of Your
                             </div>
                         </div>
 
-                        <!--Right Column-->
                         <div class="col-md-7">
                             <div class="form-group">
                                 <textarea class="form-control" id="message" name="userMessage"
@@ -906,8 +914,8 @@ Development of Your
 
                         <!--Button-->
                         <div class="col-md-12">
-                            <a class="btn btn-large btn-rounded btn-purple btn-hvr-blue d-block mt-4 contact_btn" href="javascript:void(0);"
-                               id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i><b>Send Message</b>
+                            <a class="btn btn-large btn-rounded btn-purple btn-hvr-blue d-block mt-4 contact_btn"
+                               id="submit_btn" onclick="handleSubmit()"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i><b>Send Message</b>
                                 <div class="btn-hvr-setting">
                                     <ul class="btn-hvr-setting-inner">
                                         <li class="btn-hvr-effect"></li>
@@ -918,7 +926,6 @@ Development of Your
                                 </div>
                             </a>
                         </div>
-
                     </div>
                 </form>
             </div>
@@ -928,6 +935,7 @@ Development of Your
     </div>
 
 </section>
+
 <!--Contact End-->
 
 <!--Footer Start-->
@@ -1034,6 +1042,41 @@ Development of Your
 <!-- custom script -->
 <script src="vendor/js/contact_us.js"></script>
 <script src="agency/js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 
+<script>
+    function handleSubmit() {
+        alert("Form submitted!");
+    }
+</script>
+<!-- <script>
+function Sendmail(){
+var name = $('#userName').val();
+var email = $('#userEmail').val();
+var subject = $('#userSubject').val();
+var message = $('#userMessage').val();
+
+var Body ='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message ;  
+}
+Email.send({
+    Host : "smtp.gmail.com",
+    Username : "poojahiray94@gmail.com",
+    Password : "P96@kmaps",
+    To : '',
+    From : "poojahiray94@gmail.com",
+    Subject : "New Mail on contact us"+name,
+    Body : Body
+}).then(
+  message =>{
+    if (message== 'ok'){
+        alert("Email has been sent")
+    }
+    else{
+        console.error(message);
+        alert("their is an error sending message")
+    }
+  } 
+);</script> -->
 </body>
 </html>
