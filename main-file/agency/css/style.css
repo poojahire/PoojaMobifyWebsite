@@ -55,7 +55,7 @@
 ====================================== */
 
 body {font-family: 'Roboto', sans-serif; font-size: 16px;color: #696969;font-weight:300;line-height:30px;letter-spacing: 0.2px;width: 100%; overflow-x: hidden}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {line-height: 1.2; font-weight: 500; font-family: 'Montserrat', sans-serif; color: #404854;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {line-height: 1.2; font-weight: 500; font-family: sans-serif; color: #404854;}
 a, *::before, *::after, img, span, input, button, .navbar, .fixedmenu, .tp-bullet, .owl-dot, .owl-prev, .owl-next {transition: ease-in-out 0.2s;-webkit-transition: ease-in-out 0.2s;-moz-transition: ease-in-out 0.2s;-ms-transition: ease-in-out 0.2s;-o-transition: ease-in-out 0.2s;}
 section,.section-padding {position: relative;padding: 4rem 0;overflow: hidden;}
 .section-top-margin{margin-top: 7.5rem;}
@@ -3658,7 +3658,7 @@ body{
     
     margin-top: 75px;
     padding-bottom: 30px;
-     padding: 0 80px;
+     padding: 0 70px;
      min-height: 198px;
     text-align: center;
     border-radius: 10px;
