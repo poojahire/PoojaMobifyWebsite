@@ -3673,6 +3673,7 @@ body{
      height: 100px; 
         transform: translateY(-50%);
         text-align: center !important ;
+        border-radius: 10px 100px / 120px;
     }
     .our-technologies:hover h4, .our-technologies:hover p{
         color: #fff
