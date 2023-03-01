@@ -1584,12 +1584,11 @@ span.anchor-circle{
 }
 
 .speaker-sec .image-holder{
-    height:250px;
-    width:250px;
-    border-radius: 50%;
-    background-color: #d81a1a;
+    height:200px;
+    width:200px;
+    border-radius:100%;
     margin-bottom: 25px;
-    margin-left: auto;
+    margin-left: 50px;
     margin-right: auto;
     position: relative;
     cursor: pointer;
@@ -1714,6 +1713,10 @@ span.anchor-circle{
     -webkit-transition-delay: 0s !important;
     -o-transition-delay: 0s !important;
     transition-delay: 0s !important;
+}
+.clientimage{
+    width:100px;
+    height: 200px;
 }
 /*icon hovers*/
 
