@@ -1884,7 +1884,11 @@ span.anchor-circle{
 
 .news-item .news-text-box{
     padding: 30px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    color: white;
+    font-weight: bolder;
+    background-color: #e662bce6;
+    text-align: center;
 }
 
 .news-item .date{
@@ -1894,15 +1898,19 @@ span.anchor-circle{
 .news-item .news-title{
     margin: 10px 0;
     font-weight: 400;
+    text-transform: capitalize;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    color: black;
+    font-size: xx-large;
 }
 
 .news-item .news-title:hover{
-    color: #03a9f5;
+    /* color: #03a9f5; */
+    text-shadow: 2px 2px 8px #FF0000;
 }
 
 .news-item .author{

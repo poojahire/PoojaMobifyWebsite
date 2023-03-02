@@ -423,6 +423,42 @@ body {
 #left{
     text-align: left;
 }
+#newhe{
+    
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+
+
+}
+.seven h1 {
+text-align: center;
+    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.seven h1:after,.seven h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+
  </style>
 </head>
 
@@ -834,7 +870,7 @@ Development of Your
                          data-y="['middle','middle','middle','middle']"
                          id="slide-43-layer-14"
 
-                         style="z-index: 15; min-width: 651px; max-width: 651px; white-space: normal; font-size: 35px; line-height: 30px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">
+                         style="z-index: 15; min-width: 651px; max-width: 651px; white-space: normal; font-size: 35px; line-height: 30px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:mont;">
                          Mobify makes it possible to unlock the potential of your business for making faster, smarter decisions. Your one-stop IT solutions. We develop your ideas and design your imagination.
                     </div>
                     <!-- LAYER NR. 12 -->
@@ -931,7 +967,7 @@ Development of Your
     </ul>  -->
 
       <p class="para" >
-        <ul id="left">
+        <ul id="left" style="    text-align: justify;">
           <li>We develop mobile and web solutions for companies of all sizes and provide insights into your business by connecting you to the right mobile and web solutions, at the right time.</li> 
           <li>We have a global presence, providing customized and holistic IT solutions to pour customers. Whether it be web development, web hosting, mobile application development, and SEO services,we do it all.</li>
           <li>With our pool of skilled and knowledgeable professionals who specialize in the latest technologies, we provide our clients with agile and scalable services that help them stay ahead in the digital space.</li>
@@ -1079,11 +1115,17 @@ Development of Your
 <!--Team End-->
 
 <!--Services Start-->
-<section class="bg-light" id="services">
+<section class="bg-light" id="services" style="background-image: url('agency/img/blueback1.jpg');background-size: cover;
+background-attachment: fixed;">
     <div class="container">
       <div class="heading-area section-title text-center">
-            <h1 class="section-title1"><span><b>What we can do for you</b></span></h1>
-            <br>
+            <!-- <h1 class="section-title1"><span><b>What we can do for you</b></span></h1>
+             -->
+            
+            <div class="seven">
+                <h1 id="newhe">What we can do for you</h1>
+              </div>
+              <br>
             <h2 class="section-sub-title">Our team of highly <span class="alt-color js-rotating">experienced professionals , provides comprehensive</span> methods to help create the best quality software solutions.</h2>
         </div>
         <br><br>
@@ -1095,7 +1137,7 @@ Development of Your
                     <img alt="image" class="news-img" src="agency/img/CMS1.jpg">
                     <div class="news-text-box">
                      
-                        <a href=""><h4 class="news-title">Enterprise CMS</h4></a>
+                        <a><h4 class="news-title">Enterprise CMS</h4></a>
                         <p class="para">Enterprise CMS offer advanced functionality and features, giving you more control over your content, your marketing, and your data. Perfect for mid to large-sized businesses</p>
 
                      
@@ -1106,7 +1148,7 @@ Development of Your
                 <div class="news-item">
                     <img alt="image" class="news-img" src="agency/img/SoftMange.jpg">
                     <div class="news-text-box">
-                        <a href=""><h4 class="news-title">Software Maintenance Services</h4></a>
+                        <a><h4 class="news-title">Software Maintenance Services</h4></a>
                         <p class="para">Mobify provides top-notch product maintenance that helps businesses & services stay online at all times and increase their flexibility, productivity, and scalability.</p>
 
                     </div>
@@ -1116,7 +1158,7 @@ Development of Your
                     <img alt="image" class="news-img" src="agency/img/websiteDevp.jpg">
                     <div class="news-text-box">
                      
-                        <a href=""><h4 class="news-title">Website development</h4></a>
+                        <a><h4 class="news-title">Website development</h4></a>
                         <p class="para">We help brands educate, engage, and inspire their customers through the gamut of online services and powerful designs. Our team’s expertise is in angular, react, node-JS, and many more.</p>
                         
                     </div>
@@ -1126,7 +1168,7 @@ Development of Your
                     <img alt="image" class="news-img" src="agency/img/CustSoft.png">
                     <div class="news-text-box">
                       
-                        <a href=""><h4 class="news-title">Customized Software</h4></a>
+                        <a ><h4 class="news-title">Customized Software</h4></a>
                         <p class="para">We build applications that help your organizations deliver tailored customer experiences to win market competitions. We take a consultative approach and provide you with the best customizations possible.</p>      
                     </div>
                 </div>
@@ -1135,7 +1177,7 @@ Development of Your
                     <img alt="image" class="news-img" src="agency/img/mobile.jpg">
                     <div class="news-text-box">
                        
-                        <a href=""><h4 class="news-title"> Mobile Application</h4></a>
+                        <a><h4 class="news-title"> Mobile Application</h4></a>
                         <p class="para">We are specialized in Developing mobile applications for users of all types of Mobile Applications. If you want to make your business better,then Mobile app development is the service you need.</p>
 
                     </div>
@@ -1146,7 +1188,7 @@ Development of Your
                     <img alt="image" class="news-img" src="agency/img/IT Const.jpg">
                     <div class="news-text-box">
                       
-                        <a href=""><h4 class="news-title">It Consultants</h4></a>
+                        <a ><h4 class="news-title">It Consultants</h4></a>
                         <p class="para">Our IT team has the expertise to help you with IT decisions and server management, SEOs, SSOs, third-party integrations, and many more.</p>
                     </div>
                 </div>
@@ -1162,8 +1204,11 @@ Development of Your
     background-attachment: fixed;">
                 <div class="container">
                   <div class="heading-area section-title text-center">
-                        <h1 class="section-title1 text-light"><span><b>Our Technologies</b></span></h1>
-                        <br>
+                        <!-- <h1 class="section-title1 text-light"><span><b>Our Technologies</b></span></h1>
+                        <br> -->
+                        <div class="seven">
+                            <h1 id="newhe" style="color:white;">Technologies</h1>
+                          </div>
                     </div>
                     <br><br>
                    
@@ -1981,8 +2026,14 @@ Services End-->
         <!--Row-->
         <div class="row">
             <div class="col-md-12 text-center">
+                <div class="seven">
+                    <h1 id="newhe">What we can do for you</h1>
+                  </div>
                 <div class="heading-area mx-570  ">
-                    <h1 class="section-title1" style="color: #ffffff;">   <span><b>what's stories on</b> </span> </h1><br>
+                    <!-- <h1 class="section-title1" style="color: #ffffff;">   <span><b>what's stories on</b> </span> </h1><br> -->
+                  
+
+                   <br>
                     <h5 class="section-sub-title"> <span class="alt-color js-rotating" >latest blogs, recent news </span>&nbsp;&nbsp;<span style="color:#fff;">will
                         keep
                         everyone updated</span></h5>
@@ -2087,13 +2138,13 @@ Services End-->
                         <li>
                             <span class="address-icon gradient-text2"><i aria-hidden="true"
                                                                          class="fas fa-phone-volume"></i></span>
-                            <span class="address-text"><a class="mr-3" href="javascript:void(0)">+91 7972466258</a>
+                            <span class="address-text"><a class="mr-3" href="tel:7972466258">+91 7972466258</a>
                                   </span>
                         </li>
                         <li>
                             <span class="address-icon gradient-text2"><i aria-hidden="true"
                                                                          class="fas fa-paper-plane"></i></span>
-                            <span class="address-text"><a class="mr-3 alt-color" href="javascript:void(0)">sales@mobify.bz</a><a
+                            <span class="address-text"><a class="mr-3 alt-color" href="mailto:sales@mobify.bz">sales@mobify.bz</a><a
                                     class="mr-3 alt-color" href="javascript:void(0)"></a></span>
                         </li>
                     </ul>
