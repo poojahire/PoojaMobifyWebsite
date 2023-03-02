@@ -1205,9 +1205,16 @@ span.anchor-circle{
     text-align: center;
 }
 
-.heading-area .sub-title{
-    /* font-size: 18px;
-    font-weight: 400; */
+.imgsize{
+    height: 65px;
+    width: 70px;
+}
+.imgsize1{
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 120px;
+    margin-left: 15px;
 }
 
 .heading-area .title{
