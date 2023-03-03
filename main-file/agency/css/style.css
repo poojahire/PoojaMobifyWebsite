@@ -3676,6 +3676,9 @@ input.inputerror, textarea.inputerror, select.inputerror {
 .news-img{
     height: 230px;
 }
+.news-img1{
+    height: 500px;
+}
 
  .col-lg-4{
     margin-bottom: 30px;
