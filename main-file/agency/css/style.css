@@ -1582,18 +1582,18 @@ span.anchor-circle{
 /* ===================================
     Our Clients
 ====================================== */
-.speaker-sec{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.client-sec{
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
 }
-.speaker-sec .speakers-detail{
+.client-sec .speakers-detail{
     margin-bottom: 50px;
 }
 
-.speaker-sec .image-holder{
-    height:200px;
-    width:200px;
-    border-radius:100%;
+.client-sec .image-holder{
+    height:150px;
+    width:150px;
+     /* border-radius:50px;  */
     margin-bottom: 25px;
     margin-left: 50px;
     margin-right: auto;
@@ -1601,15 +1601,17 @@ span.anchor-circle{
     cursor: pointer;
     overflow: hidden;
 }
-.speaker-sec .image-holder img{
+.client-sec .image-holder img{
     height: 100%;
     width: 100%;
+    align-items: center;
     border-radius: 50%;
+/* border-radius: 25px; */
     -webkit-transition: .8s ease;
     -o-transition: .8s ease;
     transition: .8s ease;
 }
-.speaker-sec .image-holder .overlay{
+.client-sec .image-holder .overlay{
     position: absolute;
     left:0;
     right: 0;
@@ -1625,21 +1627,21 @@ span.anchor-circle{
     transition: .8s ease;
 }
 
-.speaker-sec .speaker-info:hover .image-holder .overlay .plus span:nth-child(2){
+.client-sec .speaker-info:hover .image-holder .overlay .plus span:nth-child(2){
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     opacity: 1;
 }
-.speaker-sec .speaker-info:hover .image-holder .overlay .plus span{
+.client-sec .speaker-info:hover .image-holder .overlay .plus span{
     opacity: 1;
 }
-.speaker-sec .speaker-info:hover .image-holder img{
+.client-sec .speaker-info:hover .image-holder img{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
-.speaker-sec .speaker-info:hover .image-holder .overlay{
+.client-sec .speaker-info:hover .image-holder .overlay{
     opacity: 1;
     left:10px;
     right: 10px;
@@ -1647,7 +1649,7 @@ span.anchor-circle{
     top: 10px;
     border: solid 3px #fff;
 }
-.speaker-sec .speaker-name{
+.client-sec .speaker-name{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -1657,10 +1659,10 @@ span.anchor-circle{
     -o-transition: .8s ease;
     transition: .8s ease;
 }
-.speaker-sec .speaker-info:hover .speaker-name{
+.client-sec .speaker-info:hover .speaker-name{
     color: #FD295C;
 }
-.speaker-sec .speaker-detail{
+.client-sec .speaker-detail{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -1669,61 +1671,61 @@ span.anchor-circle{
     margin-bottom: 0;
     font-style: italic;
 }
-.speaker-sec .speaker-links{
+.client-sec .speaker-links{
     position: relative;
 }
-.speaker-sec .speaker-links .slider-social{
+.client-sec .speaker-links .slider-social{
     left: 50%;
     -webkit-transform: translateX(50%);
     -ms-transform: translateX(50%);
     transform: translateX(50%);
 }
-.speaker-sec .image-holder .overlay .speaker-links ul li a {
+.client-sec .image-holder .overlay .speaker-links ul li a {
     -webkit-transform: translateY(-80px);
     -ms-transform: translateY(-50px);
     transform: translateY(-80px);
     opacity: 0;
 }
-.speaker-sec .image-holder .overlay .speaker-links ul li:first-child a {
+.client-sec .image-holder .overlay .speaker-links ul li:first-child a {
     -webkit-transition-delay: .1s;
     -o-transition-delay: .1s;
     transition-delay: .1s;
 }
-.speaker-sec .image-holder .overlay .speaker-links ul li:nth-child(2) a {
+.client-sec .image-holder .overlay .speaker-links ul li:nth-child(2) a {
     -webkit-transition-delay: .25s;
     -o-transition-delay: .25s;
     transition-delay: .25s;
 }
-.speaker-sec .image-holder .overlay .speaker-links ul li:nth-child(3) a {
+.client-sec .image-holder .overlay .speaker-links ul li:nth-child(3) a {
     -webkit-transition-delay: .4s;
     -o-transition-delay: .4s;
     transition-delay: .4s;
 }
-.speaker-sec .speaker-info:hover .image-holder .overlay .speaker-links ul li:first-child a {
+.client-sec .speaker-info:hover .image-holder .overlay .speaker-links ul li:first-child a {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
     transform: translateY(0px);
    
 }
-.speaker-sec .speaker-info:hover .image-holder .overlay .speaker-links ul li:nth-child(2) a {
+.client-sec .speaker-info:hover .image-holder .overlay .speaker-links ul li:nth-child(2) a {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
     transform: translateY(0px);
   
 }
-.speaker-sec .speaker-info:hover .image-holder .overlay .speaker-links ul li:nth-child(3) a {
+.client-sec .speaker-info:hover .image-holder .overlay .speaker-links ul li:nth-child(3) a {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
     transform: translateY(0px);
 }
-.speaker-sec .speaker-info .image-holder .overlay .speaker-links:hover ul li a{
+.client-sec .speaker-info .image-holder .overlay .speaker-links:hover ul li a{
     -webkit-transition-delay: 0s !important;
     -o-transition-delay: 0s !important;
     transition-delay: 0s !important;
 }
 .clientimage{
-    width:100px;
-    height: 200px;
+    width:10px;
+    height: 10px;
 }
 /*icon hovers*/
 
@@ -1763,12 +1765,12 @@ span.anchor-circle{
 
 }
 
-.speaker-sec .image-holder .overlay .speaker-links:hover  ul li:nth-child(3) a,.speaker-sec .image-holder .overlay .speaker-links:hover  ul li:nth-child(2) a{
+.client-sec .image-holder .overlay .speaker-links:hover  ul li:nth-child(3) a,.speaker-sec .image-holder .overlay .speaker-links:hover  ul li:nth-child(2) a{
     -webkit-transition-delay: 0s;
     -o-transition-delay: 0s;
     transition-delay: 0s;
 }
-.speaker-sec .image-holder .overlay .speaker-links>ul li a:hover{
+.client-sec .image-holder .overlay .speaker-links>ul li a:hover{
     background-color: rgba(255, 255, 255, 0.9);
 }
 
