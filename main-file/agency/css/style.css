@@ -323,7 +323,7 @@ header a.logo img {max-width: 150px;}
     font-weight: 400;
     min-width: 100px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .header-appear .navbar-top-default.navbar-gradient .navbar-nav .menu-line{
@@ -1191,14 +1191,14 @@ span.anchor-circle{
     
     /* h2 */
  .heading-area .section-sub-title{
-        font-size: 22px;
         font-weight: 400;
         text-align: center;
+        margin-top: 15px;
+        font-size: 30px;
         }
         /* h2 */
 .heading-area {
-    margin-top:50px;
-}
+    margin-top: 23px;}
 
 .heading-area .section-title1{
     font-weight: 600px;
@@ -1944,17 +1944,45 @@ span.anchor-circle{
 .news-item .author .author-name:hover{
     color: #03a9f5;
 }
+/* Products */
 
+figure {
+	width: 500px;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+    border-radius: 10px;
+
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    border-radius: 10px;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    border-radius: 10px;
+}
+
+/*  */
 
 /* ===================================
    Client
 ====================================== */
 
-.owl-carousel .owl-item img{
-    width: auto;
-    max-width: 100%;
-    display: inline-block;
-}
 
 .partners-slider .logo-item{
     text-align: center;
@@ -3482,6 +3510,7 @@ input.inputerror, textarea.inputerror, select.inputerror {
         text-align: center;
     }
 
+    
     .fullnav-toggler,.header-appear .fullnav-toggler{
         position: relative;
         left: auto;
