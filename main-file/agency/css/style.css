@@ -156,7 +156,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 
 /* text-color */
 .main-color{color: #f033b5;}
-.alt-color{color: #03a9f5;}
+.alt-color{color: #FF0000;}
 
 .gradient-text1{
     background: #f033b5;
@@ -1892,7 +1892,14 @@ span.anchor-circle{
     background-color: #e662bce6;
     text-align: center;
 }
-
+.news-item .news-text-box1{
+    padding: 30px;
+    background-color: #fff;
+    /* color: white; */
+    font-weight: bolder;
+    /* background-color: #e662bce6; */
+    text-align: center;
+}
 .news-item .date{
     font-weight: 400;
 }
