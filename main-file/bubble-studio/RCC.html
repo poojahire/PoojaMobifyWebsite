@@ -46,78 +46,136 @@
 <!-- End Preloader -->
 
 <!-- Start Header -->
-<header>
-    <!--Navigation-->
-    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
-        <div class="container-fluid navbar-left">
-            <a href="../index-bubble-studio.html" title="Logo" class="logo">
-                <!--Logo Default-->
-                <span><img src="../bubble-studio/img/logo.png" alt="logo"></span>
-            </a>
-        </div>
+<header class="cursor-light">
 
-        <!--Side Menu Button-->
-        <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </a>
+    <!--Navigation-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-gradient nav-icon alt-font">
+        <div class="container">
+            <a class="logo link scroll" href="javascript:void(0)" title="Logo">
+                <!--Logo Default-->
+                <img alt="logo" class="logo-dark default" src="agency/img/mobify-logo.png">
+            </a>
+
+            <!--Nav Links-->
+            <div class="collapse navbar-collapse" id="agency">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link link scroll active" href="#home">Home</a>
+                    <a class="nav-link link scroll" href="#about-us">About Us</a>
+                    <a class="nav-link link scroll" href="#services">Services</a>
+                    <a class="nav-link link scroll" href="#technologies">Technologies</a>
+                    <a class="nav-link link scroll" href="#clients">Clients</a>
+                    <a class="nav-link link scroll" href="#products">Products</a>
+                    <a class="nav-link link scroll" href="#blog">Blog</a>
+                    <a class="nav-link link scroll" href="#contact">Contact Us</a>
+                    <span class="menu-line"><i aria-hidden="true" class="fa fa-angle-down"></i></span>
+                </div>
+                 <!-- <a class="btn btn-medium btn-rounded btn-transparent-white btn-hvr-white ml-3" data-animation-duration="500" data-fancybox data-src="#animatedModal"
+                   href="javascript:void(0);">Get A Quote
+                    <div class="btn-hvr-setting">
+                        <ul class="btn-hvr-setting-inner">
+                            <li class="btn-hvr-effect"></li>
+                            <li class="btn-hvr-effect"></li>
+                            <li class="btn-hvr-effect"></li>
+                            <li class="btn-hvr-effect"></li>
+                        </ul>
+                    </div>
+                </a>  -->
+            </div>
+
+            <!--Menu Button-->
+            <button class="fullnav-toggler link" id="full-menu-1" type="button">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+
+            <!--Slider Social-->
+            <div class="slider-social">
+                <ul class="list-unstyled">
+                    <li class="animated-wrap"><a class="animated-element" href="https://www.facebook.com/Mobify-Technology-Pvt-Ltd-493681180842653/community" target="_blank"><i
+                            aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
+                    <li class="animated-wrap"><a class="animated-element" href="https://in.linkedin.com/company/mobify-technology-solutions-pvt-ltd" target="_blank"><i
+                            aria-hidden="true" class="fab fa-linkedin-in"></i></a></li>
+                    <li class="animated-wrap"><a class="animated-element" href="https://twitter.com/mobify_biz" target="_blank"><i
+                            aria-hidden="true" class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
     </nav>
 
-    <!--Side Nav-->
-    <div class="side-menu hidden">
-        <div class="inner-wrapper">
-            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-            <a href="../index-bubble-studio.html" title="Logo">
-                <!--Logo Default-->
-                <img src="../bubble-studio/img/logo.png" alt="logo">
-            </a>
-            <nav class="side-nav w-100">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index-bubble-studio.html#banner">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index-bubble-studio.html#team-sec">Our Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index-bubble-studio.html#review">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index-bubble-studio.html#portfolio-sec">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index-bubble-studio.html#contact">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
+    <!--Full menu-->
+    <div class="nav-holder main style-2 alt-font">
 
-            <div class="side-footer w-100">
-                <ul class="social-icons-simple">
-                    <li><a class="facebook_bg_hvr2" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
-                    <li><a class="instagram_bg_hvr2" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
-                    <li><a class="twitter_bg_hvr2" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
-                </ul>
-                <p>&copy; 2023 MegaOne. Made With Love by Themesindustry</p>
+        <!--Menu Button-->
+        <button class="fullnav-close link" type="button">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+
+        <div class="container">
+            <div class="shape-left">
+                <nav class="navbar full-menu-navigation left">
+                    <ul class="list-unstyled">
+                        <li><a class="link scroll" href="#home">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">Home</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#about-us">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">About Us</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#services">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">Services</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#technologies">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">Technologies</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#clients">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">Clients</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#products">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">Products</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#contact">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">Contact</span>
+                        </a></li>
+                    </ul>
+                    <span class="full-menu-dot" style="transform: scale(0);"></span>
+                </nav>
+                <img alt="shape" src="agency/img/shape-8.png">
+            </div>
+            <div class="shape-right">
+                <div class="full-menu-detail hide-cursor">
+                    <h6 class="title">Contact Mobify</h6>
+                    <p><i class="fas fa-mobile-alt"></i>+91 7972466258</p>
+                    <p><i class="fas fa-envelope"></i>sales@mobify.bz</p>
+                </div>
+                <img alt="shape" src="agency/img/shape-7.png">
             </div>
         </div>
     </div>
-    <a id="close_side_menu" href="javascript:void(0);"></a>
-    <!-- End side menu -->
+
 </header>
+<!-- End Header -->
+    <!--Side Nav-->
+   
 <!-- End Header -->
 
 <!-- Start Banner -->
-<section class="page-title stand-banner">
+<section class="page-title2 stand-banner">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-10">
                 <div class="box-content">
+                    <p class="sub-heading text-center text-blue">Royality Chain & Claims</p>
                     <h2 class="hide-cursor wow fadeInUp" data-wow-delay="1.2s">Royalty Chain & Claims</h2>
-                    <ul class="page-breadcrumb link wow fadeInUp" data-wow-delay="1.6s">
-                        <li><a href="../index-bubble-studio.html"><span class="icon fas fa-home"></span>Home</a></li>
-                        <li>StandAlone</li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -158,74 +216,15 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
                             <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2  text-center wow slideInUp" data-wow-duration="2s">
                                 <p class="sub-heading text-center text-blue">Royality Chain & Claims</p>
                                 <h1 class="heading">Royalty Chain & Claims</h1>
-                                <p class="para_text m-auto">Royalty Chain and Claims is a  decentralized ledger for music metadata. Our patent-pending system provides an immutable database for metadata about music, so you can always prove your ownership over it. Unlock the global market potential and increase revenues by speeding up licensing procedures, reducing operation costs, resolving disputes, and accelerating royalty distribution.</p>
+                                <p class="para_text m-auto text-align:justify-content " style="color:black;">Royalty Chain and Claims is a  decentralized ledger for music metadata. Our patent-pending system provides an immutable database for metadata about music, so you can always prove your ownership over it. Unlock the global market potential and increase revenues by speeding up licensing procedures, reducing operation costs, resolving disputes, and accelerating royalty distribution.</p>
                             </div>
                         </div>
                     </div>
                     <div class="standalone-area">
                         <!-- First-Row -->
-                        <div class="row standalone-row align-items-center">
-                            <div class="col-lg-6 px-md-0">
-                                <div class="blog-image wow hover-effect fadeInLeftBig text-center text-lg-left">
-                                    <div class="box">
-                                        <img src="img/standalone-img1.jpg" alt="image">
-                                        <div class="box-content">
-                                            <h3 class="name">MegaOne</h3>
-                                            <span class="post">Web Designer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 stand-img-des">
-                                <div class="d-inline-block wow fadeIn" data-wow-delay=".5s">
-                                    <p class="sub-heading text-center text-red">Most flexible one page</p>
-                                    <h2 class="heading-text">Project Heading</h2>
-                                    <p class="para_text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Second-Row -->
-                        <div class="row standalone-row align-items-center">
-                            <div class="col-lg-6 order-lg-2 px-md-0">
-                                <div class="blog-image wow hover-effect fadeInRightBig text-center text-lg-right">
-                                    <div class="box">
-                                        <img src="img/standalone-img2.jpg" alt="image">
-                                        <div class="box-content">
-                                            <h3 class="name">MegaOne</h3>
-                                            <span class="post">Web Designer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 stand-img-des">
-                                <div class="d-inline-block wow fadeIn" data-wow-delay=".5s">
-                                    <p class="sub-heading text-center text-blue">Most flexible one page</p>
-                                    <h2 class="heading-text">Project Heading</h2>
-                                    <p class="para_text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. </p>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <!-- Third-Row -->
-                        <div class="row standalone-row align-items-center">
-                            <div class="col-lg-6 px-md-0">
-                                <div class="blog-image wow hover-effect fadeInLeftBig text-center text-lg-left">
-                                    <div class="box">
-                                        <img src="img/standalone-img3.jpg" alt="image">
-                                        <div class="box-content">
-                                            <h3 class="name">MegaOne</h3>
-                                            <span class="post">Web Designer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 stand-img-des">
-                                <div class="d-inline-block wow fadeIn" data-wow-delay=".5s">
-                                    <p class="sub-heading text-center text-red">Most flexible one page</p>
-                                    <h2 class="heading-text">Project Heading</h2>
-                                    <p class="para_text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. </p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                     <!-- End Heading Section -->
                 </div>
@@ -233,28 +232,250 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
         </div>
     </div>
 </section>
+
+
+   
+    <section style="padding:3rem 0; background-color: rgb(178 90 150 / 4%);" class="courses-sec">
+
+      
+        <div class="container">
+                      <div class="rowG"  >
+                      <div class="counter-heading">
+                        <p class="sub-heading t text-blue text-center">Royality Chain & Claims</p>
+                        <h1 class="heading text-center"><b>Royalty Chain & Claims</b></h1>
+                        <h2 class="section-sub-title text-center" > <span class="alt-color js-rotating"> Unleash Your Potential </span> with Our Product</h2>
+                    </div>
+                      </div>
+            <div class="row text-dark ">
+              
+        
+              
+             
+            </div>
+        
+        
+        </div>
+        </section>
+    <section class="blog-section blog-image py-0" id="" style="background-image:url(../bubble-studio/img/RCCINPAGEIMAGE.jpg);background-size: cover;
+    background-attachment: fixed;">
+    <div class="container mb--100";>
+        <div class="row no-gutters">
+            <div class="rowR">
+            <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInDown" data-wow-delay="300ms">
+                <div class="blog-area">
+                    <p class="sub-heading text-center text-blue" style="margin-top:50px;">Royality Chain & Claims</p>
+                    <h2 class="blog-heading text-center " ><b>ROYALTY CHAIN FEATURES</b></h2>
+                    <h2 class="section-sub-title text-center" > <span class="alt-color js-rotating"> Get the royalties you deserve </span> ,hassle-free. </h2>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row no-gutters cards-section">
+        <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+
+            <div class="card active selected wow fadeInUp" data-wow-delay="300ms">
+                    <div class="card-body">
+                        <h5 class="card-title">Master</h5>
+                        <p style="color:black">● Register your songs in the global database
+                            - multi-territorial multi-rights core database
+                            for music works, master recordings, record
+                            releases.             </p>
+</p>
+
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="card active selected wow fadeInUp" data-wow-delay="300ms">
+
+
+                    <div class="card-body">
+                        <h5 class="card-title">ROYALTY DISTRIBUTOR</h5>
+                        <p style="color:black">● Register your songs in the global database
+                            - multi-territorial multi-rights core database
+                            for music works, master recordings, record
+                            releases.             </p>
+</p>
+
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+            <div class="row" style="margin-bottom:200px; margin-top: 50px;">
+             <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card active selected wow fadeInup" data-wow-delay="300ms">
+                        <div class="card-body">
+                            <h5 class="card-title">Tracer</h5>
+                            <p style="color:black">  ● Track the usage of your songs on DSPs across
+                                the globe<br>
+                                ● Process zillions of lines of DSP usage reports
+                                to identify your songs and claim your rights
+                                directly<br>
+                                ● The tracer utilizes the entire operation
+                                workflow with DSR, UCR and other types of
+                                reports, CCID and CCR claiming and invoicing
+                                procedures       </p>
+    
+    
+                        </div>
+                    </div>
+            </div>
+           
+            <div class="col-lg-6 col-md-12 col-sm-12 mb--50">
+                <div class="card active selected wow fadeInUp" data-wow-delay="300ms" >
+                    <div class="card-body">
+                        <h5 class="card-title">MEMBERS MANAGER</h5>
+                        <p style="color:black">● Keep your members’ and/or partners’ data up to
+                            date<br>
+                            ● End-to-end members registration and data
+                            management app<br>
+                            ● Get your members to feel privileged by providing
+                            them with at-source information automatically,
+                            making your communication convenient and
+                            smooth</p>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section  id="blog" style="background-color:rgb(178 90 150 / 4%);">
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+     </div>
+    <div class="container" >
+        <!--Row-->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="seven">
+                    <p class="sub-heading text-center text-blue">Royality Chain & Claims</p>
+                    <h1 id="newhe text-center" ><b>what's stories on</b>s</h1>
+                  </div>
+                <div class="heading-area mx-570  ">
+                    <!-- <h1 class="section-title1" style="color: #ffffff;">   <span><b>what's stories on</b> </span> </h1><br> -->
+                  
+
+                   <br>
+                    <h2 class="section-sub-title" > <span class="alt-color js-rotating">latest blogs , latest news </span> will keep Everyone updated</h2>
+                </div>
+            </div>
+        </div>
+       <br>
+        <!--Row-->
+        <div class="row wow fadeInUp">
+            <!--News Item-->
+            <div class="col-lg-4">
+                <div class="news-item">
+                    <img alt="image" class="blog-news-img" src="../bubble-studio/img/PPL1.PNG">
+                    <div class="news-text-box text-center">
+                        <p class="para ">PPL makes music licensing digital with the launch of PPL PLUS</p>
+                           <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white "  href="https://www.medianews4u.com/ppl-makes-music-licensing-digital-with-the-launch-of-ppl-plus/"  target="_blank">Read
+                            More
+                            <div class="btn-hvr-setting">
+                                <ul class="btn-hvr-setting-inner">
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--News Item-->
+            <div class="col-lg-4">
+                <div class="news-item">
+                    <img alt="image" class="blog-news-img" src="../bubble-studio/img/PPL2.png">
+                    <div class="news-text-box text-center">
+                        <!-- <a href="agency/blog-list.html"><h4 class="news-title">App Development</h4></a> -->
+                        <p class="para">Play by the rules with PPL INDIA</p>
+                            <br>  <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white "  href="https://www.indiantelevision.com/mam/marketing/mam/play-by-the-rules-with-ppl-india-191226" target="_blank">Read
+                            More
+                            <div class="btn-hvr-setting">
+                                <ul class="btn-hvr-setting-inner">
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--News Item-->
+            <div class="col-lg-4">
+                <div class="news-item">
+                    <img alt="image" class="blog-news-img" src="../bubble-studio/img/PPL3.png">
+                    <div class="news-text-box text-center">
+                        <p class="para">Music Licensing goes digital, PPL introduces PLUS</p>
+                        <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white "  href="https://www.radioandmusic.com/biz/regulators/copyright-office/190325-music-licensing-goes-digital-ppl"  target="_blank">Read
+                            More
+                            <div class="btn-hvr-setting">
+                                <ul class="btn-hvr-setting-inner">
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                    <li class="btn-hvr-effect"></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- End Inner Page -->
 
 <!-- Start Footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="row align-items-center">
-            <!--Social-->
-            <div class="col-12">
-                <div class="footer-social text-center">
-                    <ul class="list-unstyled">
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-facebook-f"></i><span></span></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-twitter"></i><span></span></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-google-plus-g"></i><span></span></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-linkedin-in"></i><span></span></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-instagram"></i><span></span></a></li>
-                    </ul>
+<footer class="footer-area footer-style-01 bg_color--6" style= "background-color: rgb(178 90 150 / 4%);">
+    
+    <div class="footer-wrapper ptb--70 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
+                    <div class="ft-text">
+                        <div class="logo">
+                            <a href="">
+                                <img src="../bubble-studio/img/mobify-logo.png" alt="Digital Agency" style="width:200px; height:100px; margin-top:30px;">
+                            </a>
+                        </div>
+                        <div>
+                            <p  class="text-white"style="margin-top: 10px; ">Copyright © 2022 <a href="">Mobify</a>. Built with love in Pune. All
+                                rights reserved.</p>
+                        
+                        </div>
+                       
+                    </div>
                 </div>
-            </div>
-            <!--Text-->
-            <div class="col-12 text-center mt-3">
-                <p class="company-about fadeIn">&copy; 2023 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a>
-                </p>
+               
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40 float-end">
+                    <div class="footer-link d-flex flex-column align-items-end">
+                        <ul class="ft-link list-unstyled" >
+                            <li class="text-white" style="margin-top:30px; text-decoration: none;">Email: <a href="mailto:sales@mobify.bz">sales@mobify.bz</a></li>
+                        </ul>
+                      
+                        <div class="slider-social text-white">
+                            <ul class="list-unstyled  social-share1" style="margin-top: 45px; ">
+                                <li><a class="social-share"  href="https://www.facebook.com/Mobify-Technology-Pvt-Ltd-493681180842653/community" target="_blank"><i
+                                        aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="social-share" href="https://in.linkedin.com/company/mobify-technology-solutions-pvt-ltd" target="_blank"><i
+                                        aria-hidden="true" class="fab fa-linkedin-in"></i></a></li>
+                                <li><a class="social-share" href="https://twitter.com/mobify_biz" target="_blank"><i
+                                        aria-hidden="true" class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -262,6 +483,7 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
 <!-- End Footer -->
 
 <!-- JavaScript -->
+
 <script src="../vendor/js/bundle.min.js"></script>
 <!-- Plugin Js -->
 <script src="../vendor/js/jquery.appear.js"></script>

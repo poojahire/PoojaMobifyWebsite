@@ -141,10 +141,10 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .bg-purple {background-color: #9556f5;}
 
 .gradient-bg1{
-    background: #3264f5;
-    background: -moz-linear-gradient(left, #3264f5 2%, #7004bc 82%);
-    background: -webkit-linear-gradient(left, #3264f5 2%,#7004bc 82%);
-    background: linear-gradient(to right, #3264f5 2%,#7004bc 82%);
+    background: red;
+    background: -moz-linear-gradient(left, red 2%, red 82%);
+    background: -webkit-linear-gradient(left,red 2%,red  82%);
+    background: linear-gradient(to right, red  2%, red 82%);
 }
 
 .gradient-bg2{
@@ -288,7 +288,6 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 
 
 /* logo change */
-
 header .logo .logo-dark, header .logo .logo-light {visibility: hidden; opacity: 0; width: 0; transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;}
 header .logo .logo-dark.default, header .logo .logo-light.default {visibility: visible; opacity: 1; width: auto; transition-duration:0.5s;  -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;}
 header.header-appear nav .logo .logo-light, header.header-appear nav.header-dark .logo .logo-light {visibility: visible;  opacity: 1; width: auto; transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;}
@@ -323,7 +322,11 @@ header a.logo img {max-width: 150px;}
     font-weight: 400;
     min-width: 100px;
     text-align: center;
+<<<<<<< Updated upstream
     font-size: 16px;
+=======
+    font-size: 17px;
+>>>>>>> Stashed changes
 }
 
 .header-appear .navbar-top-default.navbar-gradient .navbar-nav .menu-line{
@@ -363,10 +366,10 @@ header a.logo img {max-width: 150px;}
 }
 
 .header-appear .navbar-top-default.navbar-gradient {
-    background: #3264f5;
-    background: -moz-linear-gradient(left, #7004bc 2%, #3264f5 82%);
-    background: -webkit-linear-gradient(left, #7004bc 2%, #3264f5 82%);
-    background: linear-gradient(to right, #7004bc 2%, #3264f5 82%);
+    background: red;
+    background: -moz-linear-gradient(left,red 2%, red 82%);
+    background: -webkit-linear-gradient(left,red 2%,red 82%);
+    background: linear-gradient(to right, red 2%, red 82%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7004bc',GradientType=1 );
 }
 
@@ -472,6 +475,10 @@ header a.logo img {max-width: 150px;}
     -webkit-transform: translate3d(600%, 0, 0);
     transform: translate3d(600%, 0, 0);
 }
+.pluslogo{
+    width:200px;
+    height:100px;
+}
 
 /*slider social*/
 
@@ -479,6 +486,7 @@ header a.logo img {max-width: 150px;}
     position: absolute;
     right: 50px;
     top: 27px;
+    display:flex;
 }
 
 .header-appear .slider-social{
@@ -799,6 +807,7 @@ header .nav-holder.active .shape-right {
 .row {
     margin-right: -15px;
     margin-left: -15px;
+    margin-top:50px;
   }
 
   .subtitle{
@@ -1889,7 +1898,7 @@ span.anchor-circle{
     /* background-color: #fff; */
     color: white;
     font-weight: bolder;
-    background-color: #e662bce6;
+    background-image: url('../img/featuresimage.avif');
     text-align: center;
 }
 .news-item .news-text-box1{
@@ -2090,8 +2099,11 @@ audio, video, canvas {
 
 .footer-style-1{
     padding: 5rem 0;
+    
 }
-
+.slider-social{
+    display:flex;
+}
 .footer-social{
     text-align: right;
 }
