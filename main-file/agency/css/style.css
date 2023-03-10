@@ -157,7 +157,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 
 /* text-color */
 .main-color{color: #f033b5;}
-.alt-color{color: #237afe;}
+.alt-color{color: #ff0000;}
 
 .gradient-text1{
     background: #f033b5;
@@ -1208,7 +1208,8 @@ span.anchor-circle{
         }
         /* h2 */
 .heading-area {
-    margin-top: 23px;}
+    /* margin-top: 100px; */
+}
 
 .heading-area .section-title1{
     font-weight: 600px;
@@ -1593,8 +1594,8 @@ span.anchor-circle{
     Our Clients
 ====================================== */
 .client-sec{
-    /* padding-top: 100px; */
-    /* padding-bottom: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .client-sec .speakers-detail{
     margin-bottom: 50px;
@@ -3547,6 +3548,7 @@ input.inputerror, textarea.inputerror, select.inputerror {
         padding-left: 15px;
     }
 
+  
     .agency-widget > .widget .blog-latest-post > li .post-head{
         max-width: 200px;
     }

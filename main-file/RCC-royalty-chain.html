@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <!-- Author -->
+        <meta name="author" content="Themesindustry">
+        <!-- description -->
+        <meta name="description" content="MegaOne is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 8 ready home page demos.">
+        <!-- keywords -->
+        <meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, faq">
+        <!-- Page Title -->
+        <title>Mobify | Web & App Development </title>
+        
+        <!-- <link href="bubble-studio/css/style.css" rel="stylesheet"> -->
+        <!-- <link href="bubble-studio/css/custom.css" rel="stylesheet"> -->
+    
+    
+        <link href="vendor/css/bundle.min.css" rel="stylesheet">
+        <link href="vendor/css/revolution-settings.min.css" rel="stylesheet">
+        <!-- Plugin Css -->
+        <!-- <link href="vendor/css/jquery.fancybox.min.css" rel="stylesheet"> -->
+        <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
+        <link href="vendor/css/swiper.min.css" rel="stylesheet">
+        <!-- <link href="vendor/css/cubeportfolio.min.css" rel="stylesheet"> -->
+        <!-- Style Sheet -->
+        <link href="agency/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <script type="text/javascript"
+         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    
+         
+    
+    </script>
+    <!-- <script src="index.js"></script> -->
+    
+    <style>
+     
+      /* CSS reset */
+    *,
+    *::after,
+    *::before {
+      box-sizing: inherit;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html { font-size: 62.5%; }
+    
+    body {
+      box-sizing: border-box;
+      /* font-family: 'Open Sans', sans-serif; */
+      position: relative;
+    }
+    
+   
+    /* Front cover */
+    
+    .card-front__tp { color: #fafbfa; }
+    
+    /* For pricing text on card front cover */
+   
+    
+    /* Back cover */
+    
+    /* For inside page's body text */
+ 
+    
+    /* Icons ===========================================*/
+    
+    .card-front__icon {
+      fill: #fafbfa;
+      font-size: 3vw;
+      height: 3.25rem;
+      margin-top: -.5rem;
+      width: 3.25rem;
+    }
+    
+    
+    
+    /* Layout Structure=========================================*/
+    
+    .main1 {
+      background: linear-gradient(
+        to bottom right,
+        #eee8dd,
+        #e3d9c6
+      );
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+      width: 100%;
+    }
+    
+    /* Container to hold all cards in one place */
+    .card-area {
+      align-items: center;
+      display: flex;
+      flex-wrap: nowrap;
+      height: 100%;
+      justify-content: space-evenly;
+      padding: 1rem;
+    }
+    
+    /* Card ============================================*/
+    
+    /* Area to hold an individual card */
+    .card-section {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    /* A container to hold the flip card and the inside page */
+    .card {
+      background-color: rgba(0,0,0, .05);
+      box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0,0,0,0.5);
+      height: 15rem;
+      position: relative;
+      transition: all 1s ease;
+      width: 15rem;
+    }
+    
+    /* Flip card - covering both the front and inside front page */
+    
+    /* An outer container to hold the flip card. This excludes the inside page */
+    .flip-card {
+      height: 15rem;
+      perspective: 100rem;
+      position: absolute;
+      right: 0;
+      transition: all 1s ease;
+      visibility: hidden;
+      width: 15rem;
+      z-index: 100;
+    }
+    
+    /* The outer container's visibility is set to hidden. This is to make everything within the container NOT set to hidden  */
+    /* This is done so content in the inside page can be selected */
+
+
+    /* Footer ====================================*/
+    
+    .footer {
+      background-color: #333;
+       margin-top: 3rem;
+      padding: 1rem 0;
+      width: 100%;
+    }
+    
+    .footer-text {
+      color: #fff;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    
+    /* ABout us para */
+    #left{
+        text-align: left;
+    }
+    #newhe{
+        
+      position: relative;
+      padding: 0;
+      margin: 0;
+      font-family: "Raleway", sans-serif;
+      font-weight: 300;
+      font-size: 40px;
+      color: #080808;
+      -webkit-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s;
+    
+    
+    }
+    .seven h1 {
+    text-align: center;
+        font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+        text-transform: uppercase;
+    
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-template-rows: 27px 0;
+        grid-gap: 20px;
+        align-items: center;
+    }
+    
+    .seven h1:after,.seven h1:before {
+        content: " ";
+        display: block;
+        border-bottom: 1px solid #c50000;
+        border-top: 1px solid #c50000;
+        height: 5px;
+      background-color:#f8f8f8;
+    }
+    
+    
+    
+    
+     </style>
+    </head>
+<body>
+    <header class="cursor-light">
+
+        <!--Navigation-->
+        <nav class="navbar navbar-top-default navbar-expand-lg navbar-gradient nav-icon alt-font">
+            <div class="container">
+                <a class="logo link scroll" href="javascript:void(0)" title="Logo">
+                    <!--Logo Default-->
+                    <img alt="logo" class="logo-dark default" src="agency/img/mobify-logo.png">
+                </a>
+    
+                <!--Nav Links-->
+                <div class="collapse navbar-collapse" id="agency">
+                    <div class="navbar-nav ml-auto">
+                   
+                        <a class="nav-link link scroll" href="#about">About</a>
+                        <a class="nav-link link scroll" href="#feature">Feature</a>
+                        <a class="nav-link link scroll" href="#faq">FAQ</a>
+                        <a class="nav-link link scroll" href="#contact">Contact Us</a>
+                    </div>
+
+                </div>
+    
+            </div>
+        </nav>
+    
+        <!--Full menu-->
+        <div class="nav-holder main style-2 alt-font">
+    
+            <!--Menu Button-->
+ 
+    
+            <div class="container">
+                <div class="shape-left">
+                    <nav class="navbar full-menu-navigation left">
+                        <ul class="list-unstyled">
+                           
+                            </a></li>
+                            <li><a class="link scroll" href="#technologies">
+                                <span class="anchor-circle"></span>
+                                <span class="anchor-text">About</span>
+                            </a></li>
+                            <li><a class="link scroll" href="#clients">
+                                <span class="anchor-circle"></span>
+                                <span class="anchor-text">Feature</span>
+                            </a></li>
+                            <li><a class="link scroll" href="#products">
+                                <span class="anchor-circle"></span>
+                                <span class="anchor-text">FAQ</span>
+                            </a></li>
+                            <li><a class="link scroll" href="#contact">
+                                <span class="anchor-circle"></span>
+                                <span class="anchor-text">Contact</span>
+                            </a></li>
+                        </ul>
+                        <span class="full-menu-dot" style="transform: scale(0);"></span>
+                    </nav>
+                    <img alt="shape" src="agency/img/shape-8.png">
+                </div>
+               
+            </div>
+        </div>
+    
+    </header>
+    
+    <section class="bg-light client-sec" id="clients" style="background-image: url('agency/img/clientbackgroundimg.jpg');background-size: cover;
+background-attachment: fixed; background-repeat: no-repeat;">
+<!-- <div class="speaker-sec"> -->
+    <div class="container">
+        <div class="heading-area section-title text-center">
+            
+         <h1>Royalty Chain & Claims</h1>   
+
+      </div>
+        
+          
+</div>
+
+</section>
+<section class="bg-light" id="rccgrowth">
+    <div class="container" style="margin-top: 80px; margin-bottom: 80px;">
+      <div class="heading-area section-title text-center">
+         
+            
+            <div class="seven">
+                <h1 id="newhe">RCC Growth</h1>
+              </div>
+              
+        </div>
+       
+        <div class="row wow fadeInUp">
+       
+            <div class="col-lg-3">
+                <div class="news-item">
+                    <!-- <img alt="image" class="news-img" src="agency/img/CMS1.jpg"> -->
+                    <div class="news-text-box">
+                     
+                        <a><h4 class="news-title">150 +</h4></a>
+                        <p class="para">STREAMS</p>
+
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="news-item">
+                    <!-- <img alt="image" class="news-img" src="agency/img/CMS1.jpg"> -->
+                    <div class="news-text-box">
+                     
+                        <a><h4 class="news-title">60 +</h4></a>
+                        <p class="para">MEMBERS</p>
+
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="news-item">
+                    <!-- <img alt="image" class="news-img" src="agency/img/CMS1.jpg"> -->
+                    <div class="news-text-box">
+                     
+                        <a><h4 class="news-title">66 +</h4></a>
+                        <p class="para">REVENUE</p>
+
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="news-item">
+                    <!-- <img alt="image" class="news-img" src="agency/img/CMS1.jpg"> -->
+                    <div class="news-text-box">
+                     
+                        <a><h4 class="news-title">66 +</h4></a>
+                        <p class="para">CONTENT</p>
+
+                     
+                    </div>
+                </div>
+            </div>
+             
+           
+        </div> 
+    </div>
+</section>
+<section class="bg-light" id="services" style="background-image: url('agency/img/blueback1.jpg');background-size: cover;
+background-attachment: fixed;">
+    <div class="container" style="margin-top: 80px; margin-bottom: 80px;">
+      <div class="heading-area section-title text-center">
+            <!-- <h1 class="section-title1"><span><b>What we can do for you</b></span></h1>
+             -->
+            
+            <div class="seven">
+                <h1 id="newhe">Royalty Chain Features </h1>
+              </div>
+              <br>
+            <!-- <h2 class="section-sub-title" style="font-size: 26px;">Our team of highly <span class="alt-color js-rotating">experienced professionals , provides comprehensive</span> methods to help create the best quality software solutions.</h2> -->
+        </div>
+       
+        <div class="row wow fadeInUp">
+       
+            <div class="col-lg-6">
+                <div class="news-item">
+                    <!-- <img alt="image" class="news-img" src="agency/img/CMS1.jpg"> -->
+                    <div class="news-text-box">
+                     
+                        <!-- <a><h4 class="news-title">IP</h4></a> -->
+                        <h3 class="title">Master</h3>
+                        <p>● Register your songs in the global database
+                            - multi-territorial multi-rights core database
+                            for music works, master recordings, record
+                            releases.                     </p>                    
+
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="news-item">
+                    <!-- <img alt="image" class="news-img" src="agency/img/SoftMange.jpg"> -->
+                    <div class="news-text-box">
+                        <h3 class="title">MEMBERS MANAGER</h3>
+                                            
+                        <p> ● Keep your members’ and/or partners’ data up to
+                            date<br>
+                            ● End-to-end members registration and data
+                            management app<br>
+                            ● Get your members to feel privileged by providing
+                            them with at-source information automatically,
+                            making your communication convenient and
+                            smooth</p>
+                    </div>
+                </div>
+            </div> <div class="col-lg-6">
+                <div class="news-item">
+                    <!-- <img alt="image" class="news-img" src="agency/img/websiteDevp.jpg"> -->
+                    <div class="news-text-box">
+                     
+                        <h3 class="title">Tracer
+                        </h3>
+                        <p>● Track the usage of your songs on DSPs across
+                            the globe<br>
+                            ● Process zillions of lines of DSP usage reports
+                            to identify your songs and claim your rights
+                            directly<br>
+                            ● The tracer utilizes the entire operation
+                            workflow with DSR, UCR and other types of
+                            reports, CCID and CCR claiming and invoicing
+                            procedures                    </p>                        
+                    </div>
+                </div>
+            </div> 
+            <div class="col-lg-6">
+                <div class="news-item">
+                    <!-- <img alt="image" class="news-img" src="agency/img/CustSoft.png"> -->
+                    <div class="news-text-box">
+                      
+                        <h3 class="title">ROYALTY DISTRIBUTOR
+                        </h3>
+                    <p>● Manage various types and formats of reports<br>
+                        ● Match and disburse funds to appropriate parties<br>
+                        ● Provide detailed statements to your partners
+                        </p>                    </div>
+                </div>
+            </div>
+             
+           
+        </div> 
+    </div>
+</section>
+
+<footer class="footer-area footer-style-01 bg_color--6">
+    
+    <div class="footer-wrapper ptb--70 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
+                    <div class="ft-text">
+                        <div class="logo">
+                            <a href="">
+                                <img src="agency/img/mobify-logo.png" alt="Digital Agency" style="width:120px; height:50px; margin-top:30px;">
+                            </a>
+                        </div>
+                        <div>
+                            <p style="margin-top: 10px;">Copyright © 2022 <a href="">Mobify</a>. Built with love in Pune. All
+                                rights reserved.</p>
+                        
+                        </div>
+                       
+                    </div>
+                </div>
+               
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40 float-end">
+                    <div class="footer-link d-flex flex-column align-items-end">
+                        <!-- <ul class="ft-link list-unstyled" >
+                            <li  style="margin-top:30px; text-decoration: none;">Email: <a href="mailto:sales@mobify.bz">sales@mobify.bz</a></li>
+                        </ul> -->
+                      
+                        <div class="slider-social">
+                            <ul class="list-unstyled  social-share1" style="margin-top: 45px; ">
+                                <li><a class="social-share"  href="https://www.facebook.com/Mobify-Technology-Pvt-Ltd-493681180842653/community" target="_blank"><i
+                                        aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="social-share" href="https://in.linkedin.com/company/mobify-technology-solutions-pvt-ltd" target="_blank"><i
+                                        aria-hidden="true" class="fab fa-linkedin-in"></i></a></li>
+                                <li><a class="social-share" href="https://twitter.com/mobify_biz" target="_blank"><i
+                                        aria-hidden="true" class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
