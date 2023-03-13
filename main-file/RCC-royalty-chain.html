@@ -54,7 +54,30 @@
  }
 
  
+/*FAQ Section */
 
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
 
      
       /* CSS reset */
@@ -233,10 +256,10 @@
                 <div class="collapse navbar-collapse" id="agency">
                     <div class="navbar-nav ml-auto">
                    
-                        <a class="nav-link link scroll" href="#about">About</a>
-                        <a class="nav-link link scroll" href="#feature">Feature</a>
+                        <a class="nav-link link scroll" href="#about">ABOUT</a>
+                        <a class="nav-link link scroll" href="#feature">FEATURE</a>
                         <a class="nav-link link scroll" href="#faq">FAQ</a>
-                        <a class="nav-link link scroll" href="#contact">Contact Us</a>
+                        <a class="nav-link link scroll" href="#contact">CONTACT Us</a>
                     </div>
 
                 </div>
@@ -258,11 +281,11 @@
                             </a></li>
                             <li><a class="link scroll" href="#technologies">
                                 <span class="anchor-circle"></span>
-                                <span class="anchor-text">About</span>
+                                <span class="anchor-text">ABOUT</span>
                             </a></li>
                             <li><a class="link scroll" href="#clients">
                                 <span class="anchor-circle"></span>
-                                <span class="anchor-text">Feature</span>
+                                <span class="anchor-text">FEATURE</span>
                             </a></li>
                             <li><a class="link scroll" href="#products">
                                 <span class="anchor-circle"></span>
@@ -270,7 +293,7 @@
                             </a></li>
                             <li><a class="link scroll" href="#contact">
                                 <span class="anchor-circle"></span>
-                                <span class="anchor-text">Contact</span>
+                                <span class="anchor-text">CONTACT</span>
                             </a></li>
                         </ul>
                         <span class="full-menu-dot" style="transform: scale(0);"></span>
@@ -377,7 +400,7 @@ background-attachment: fixed;">
         </div>
        
         <div class="row wow fadeInUp">
-       
+          <div class="row">
             <div class="col-lg-6">
                 <div class="news-item">
                     <!-- <img alt="image" class="news-img" src="agency/img/CMS1.jpg"> -->
@@ -410,7 +433,10 @@ background-attachment: fixed;">
                             smooth</p>
                     </div>
                 </div>
-            </div> <div class="col-lg-6">
+            </div> 
+            </div>
+            <div  class="row" style="margin-top:100px;">
+            <div class="col-lg-6">
                 <div class="news-item">
                     <!-- <img alt="image" class="news-img" src="agency/img/websiteDevp.jpg"> -->
                     <div class="news-text-box">
@@ -425,7 +451,7 @@ background-attachment: fixed;">
                             ● The tracer utilizes the entire operation
                             workflow with DSR, UCR and other types of
                             reports, CCID and CCR claiming and invoicing
-                            procedures                    </p>                        
+                            procedures                     </p>                        
                     </div>
                 </div>
             </div> 
@@ -442,94 +468,57 @@ background-attachment: fixed;">
                         </p>                    </div>
                 </div>
             </div>
-             
+            </div>
            
         </div> 
     </div>
 </section>
-<section class="bg-light waves" id="blog" style="background-image: url('agency/img/plus/backgroundppl.jpg');">
  
-    <div class="container"  style="margin-top: 80px; margin-bottom: 80px;">
-        <!--Row-->
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="seven">
-                    <h1 id="newhe" style="color: #fff;">what's stories on</h1>
-                <div class="heading-area mx-570  ">
-                    <!-- <h1 class="section-title1" style="color: #ffffff;">   <span><b>what's stories on</b> </span> </h1><br> -->
-                                      <h5 class="section-sub-title"> <span class="alt-color js-rotating" >latest blogs</span>&nbsp;&nbsp;<span style="color:#fff;">will
-                        keep
-                        everyone updated</span></h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-       <br>
-        <!--Row-->
-        <div class="row wow fadeInUp">
-            <!--News Item-->
-            <div class="col-lg-4">
-                <div class="news-item">
-                    <img alt="image" class="blog-news-img" src="agency/img/PPL1.PNG">
-                    <div class="news-text-box1 text-center">
-                        <p class="para">PPL makes music licensing digital with the launch of PPL PLUS</p>
-                           <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white "  href="https://www.medianews4u.com/ppl-makes-music-licensing-digital-with-the-launch-of-ppl-plus/"  target="_blank">Read
-                            More
-                            <div class="btn-hvr-setting">
-                                <ul class="btn-hvr-setting-inner">
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                </ul>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!--News Item-->
-            <div class="col-lg-4">
-                <div class="news-item">
-                    <img alt="image" class="blog-news-img" src="agency/img/ppl2.PNG">
-                    <div class="news-text-box1 text-center">
-                        <!-- <a href="agency/blog-list.html"><h4 class="news-title">App Development</h4></a> -->
-                        <p class="para">Play by the rules with PPL INDIA</p>
-                            <br>  <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white "  href="https://www.indiantelevision.com/mam/marketing/mam/play-by-the-rules-with-ppl-india-191226" target="_blank">Read
-                            More
-                            <div class="btn-hvr-setting">
-                                <ul class="btn-hvr-setting-inner">
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                </ul>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!--News Item-->
-            <div class="col-lg-4">
-                <div class="news-item">
-                    <img alt="image" class="blog-news-img" src="agency/img/PPL3.png">
-                    <div class="news-text-box1 text-center">
-                        <p class="para">Music Licensing goes digital, PPL introduces PLUS</p>
-                        <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white "  href="https://www.radioandmusic.com/biz/regulators/copyright-office/190325-music-licensing-goes-digital-ppl"  target="_blank">Read
-                            More
-                            <div class="btn-hvr-setting">
-                                <ul class="btn-hvr-setting-inner">
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                </ul>
-                            </div>
-                        </a>
-                    </div>
-            </div>
-        </div>
+<div class="col-lg-8 offset-lg-2">
+    <div class="section-title text-left pb--30" style="margin-top:50px;"><span class="subtitle theme-gradient"><b><center>Check out
+            our
+            FAQ section to see if we can help.</b></span>
+        <h2 class="title mb_sm--0" style="margin-top:30px; margin-bottom:50px;">Do you have any Questions ?</h2></center>
     </div>
-</section>
+</div>       
+
+
+<center><button class="accordion"> What is RCC?</button>
+<div class="panel">
+  <p>        RoyaltyChain provides the music industry with innovative products and services to streamline  copyrights <br>administration, licensing, and royalty distribution, resulting in increased revenues for all  parties.</p>
+</div>
+
+<button class="accordion">How does it work?</button>
+<div class="panel">
+  <p>First add Members, Content, and Contracts in RCC Second Upload DSP Streaming reports with date range. Third <br>Content Matching. The fourth step is Reconcile Stream Reports as per content matched and prepare the payouts to be given to the Members.<br> And last is Calculate, Process & Distribute the payouts to Members. 
+  </p>
+</div>
+
+<button class="accordion" >What is ISRC?</button>
+<div class="panel">
+<p> First add Members, Content, and Contracts in RCC Second Upload DSP Streaming reports with date range.<br> Third Content Matching. The fourth step is Reconcile Stream Reports as per content matched <br>and prepare the payouts to be given to the Members. And last is Calculate, Process & Distribute the payouts to Members.</p> 
+</div>
+</center>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
 <footer class="footer-area footer-style-01 bg_color--6">
     
     <div class="footer-wrapper ptb--70 bg-dark">

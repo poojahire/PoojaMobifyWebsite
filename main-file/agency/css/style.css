@@ -811,7 +811,7 @@ header .nav-holder.active .shape-right {
       }
 
   .subtitle{
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .row > [class*=col] {
@@ -1907,6 +1907,7 @@ span.anchor-circle{
     background-image: url('../img/featuresimage.avif');
     text-align: center;
     background-color: #e662bce6;
+
 }
 .news-item .news-text-box1{
     padding: 30px;
@@ -2028,8 +2029,76 @@ figure:hover+span {
 }
 
 /* ===================================
+   faq
+====================================== */
+
+.row > [class*=col] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.row>* {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.pv-feaq-area .accodion-style--1 .accordion__item + .accordion__item {
+    margin-top: 20px;
+  }
+  .pv-feaq-area .accodion-style--1 .accordion__item .accordion__heading .accordion__button {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  .pv-feaq-area .accodion-style--1 .accordion__item .accordion__heading {
+    width: 100%;
+  }
+  .pv-feaq-area .accodion-style--1 .accordion__item .accordion__heading .accordion__button::after {
+    width: 100%;
+  }
+  .pv-feaq-area .accodion-style--1 .accordion__item .accordion__heading .accordion__button::after {
+    height: 2px;
+  }
+  
+/* ===================================
    Contact
 ====================================== */
+
 
 .contact-form .form-control {
     border: 1px solid #d4d4d4;
