@@ -808,8 +808,7 @@ header .nav-holder.active .shape-right {
 .row {
     margin-right: -15px;
     margin-left: -15px;
-    margin-top:50px;
-  }
+      }
 
   .subtitle{
     font-size: 30px;
@@ -1805,6 +1804,11 @@ span.anchor-circle{
     font-style: italic;
 }
 
+.features .para{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
 #testimonial-slider::after{
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -3622,6 +3626,9 @@ input.inputerror, textarea.inputerror, select.inputerror {
         font-size: 35px;
     }
 
+.news-text-box .news-title1{
+    font-size: 5px !important;
+}
     .news-item .news-title {
         font-size: 25px;}
 
