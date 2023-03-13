@@ -296,11 +296,7 @@ header.header-appear nav .logo .logo-dark, header.header-appear nav.header-dark 
 header.header-appear nav .logo .logo-dark, header.header-appear nav.header-light .logo .logo-dark {visibility: visible;  opacity: 1; width: auto; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;}
 header.header-appear nav .logo .logo-light, header.header-appear nav.header-light .logo .logo-light {visibility: hidden; opacity: 0; width: 0; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;}
 header a.logo {display: inline-block; vertical-align: middle;line-height: 1}
-<<<<<<< Updated upstream
 header a.logo img {max-width: 180px;}
-=======
-header a.logo img {max-width: 200px;}
->>>>>>> Stashed changes
 
 /* nav top default */
 
@@ -1911,11 +1907,6 @@ span.anchor-circle{
     background-image: url('../img/featuresimage.avif');
     text-align: center;
     background-color: #e662bce6;
-<<<<<<< Updated upstream
-
-=======
-    margin-bottom:50px;
->>>>>>> Stashed changes
 }
 .news-item .news-text-box1{
     padding: 30px;
@@ -2039,9 +2030,8 @@ figure:hover+span {
 /* ===================================
    faq
 ====================================== */
-<<<<<<< Updated upstream
 
-.row > [class*=col] {
+/* .row > [class*=col] {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -2086,9 +2076,7 @@ div {
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
-}
-=======
->>>>>>> Stashed changes
+} */
 .pv-feaq-area .accodion-style--1 .accordion__item + .accordion__item {
     margin-top: 20px;
   }
